@@ -672,12 +672,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(34 211 238 / 0));
 }
 
+.from-orange-400 {
+  --tw-gradient-from: #fb923c;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(251 146 60 / 0));
+}
+
 .to-purple-500 {
   --tw-gradient-to: #a855f7;
 }
 
 .to-orange-700 {
   --tw-gradient-to: #c2410c;
+}
+
+.to-orange-500 {
+  --tw-gradient-to: #f97316;
 }
 
 .p-6 {
@@ -790,6 +799,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-purple-100 {
   --tw-text-opacity: 1;
   color: rgb(243 232 255 / var(--tw-text-opacity));
+}
+
+.text-orange-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 186 116 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
