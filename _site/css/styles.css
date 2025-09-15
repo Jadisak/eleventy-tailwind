@@ -1466,6 +1466,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 50vw;
   }
 
+  .md\:w-\[60vw\] {
+    width: 60vw;
+  }
+
+  .md\:w-\[1024px\] {
+    width: 1024px;
+  }
+
   .md\:max-w-5xl {
     max-width: 64rem;
   }
